@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="venta de anabolicos, anabolicos en guadalajara, venta de suplementos, esteroides, anabolicos, comprar anabolicos">
+    <meta name="robots" content="index">
+    <title>Anabólicos Guadalajara Store</title>
+    <link rel="shortcute icon" href="Imagenes/Logo.png">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://kit.fontawesome.com/6b7a8a6ccb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <header class="cabecera-ofertas">
+        <div class="menu contenedor">
+            <a href="index.html" class="enlace">
+                <img src="Imagenes/Logo.png" width="150" height="300" alt="" class="logo" >
+             </a>
+             <input type="checkbox" id="menu">
+             <label for="menu">
+                <img src="Imagenes/menu.png" class="menu-icono" alt=""> 
+             </label>
+             <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="quienes-somos.html">Quienes Somos</a></li>
+                    <li><a href="catalogo.html">Catálogo</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul> 
+             </nav>
+        </div>
+        <div class="header-ofertas contenedor">
+            <div class="header-texto-ofertas">
+                <h1>KIT</h1>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="prod-1">
+            <div class="prod-img">
+                <img src="Imagenes/Kit Creatina 1 kg y Brian Food 30 Capsulas.png" alt="Kit Creatina 1kg + Brain Food 30 Capsulas">
+            </div>
+            <div class="prod-txt">
+                <h2>KIT CREATINA 1kg + BRAIN FOOD 30 CAPSULAS</h2>
+                <h3>$515.00 MXN</h3>
+                <p>Creatina:</p>
+                <p>La creatina es excelente auxiliar en el aumento de la fuerza 
+                   en el entrenamiento, con lo que también mejora el aumento de 
+                   masa muscular, además de optimizar tu rendimiento deportivo 
+                   en un 10-15 %.
+                </p>
+                <p>La creatina ayuda a superar etapas de estancamiento en el 
+                   rendimiento, a aumentar las pesas en el entrenamiento y, de 
+                   esa forma, a optimizar también el aumento de masa muscular.
+                </p>
+                <p>Brain Food:</p>
+                <p>BPI Performance Advanced Scientific Brain Food es un 
+                   nootrópico formulado para cualquier persona que quiera 
+                   aumentar su función cerebral general.
+                </p>
+                <p>Un nootrópico es cualquier sustancia que puede mejorar la 
+                   función cognitiva. Advanced Scientific Brain Food contiene 
+                   Alpha GPC, un nootrópico natural.
+                </p>
+                <p>Ginkgo biloba se ha utilizado durante miles de años en la 
+                   antigua medicina china para apoyar la memoria. También se ha 
+                   demostrado que DMAE mejora la memoria.
+                </p>
+                <button class="btn-prod">
+                    <a href="https://api.whatsapp.com/send/?phone=523336670504" target="_blank">Contáctame</a>
+                </button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="btn-reg">
+            <button class="btn-regresar">
+                <a href="suplementos-nutricionales.html">Regresar a Suplementos</a>
+            </button>
+        </div>
+    </section>
+    <section class="boton-arriba">
+        <button class="btn-scrolltop" id="btn_scrolltop">
+            <i class="fa-solid fa-angle-up"></i>
+        </button>
+        <script>
+            const btn_scrolltop = document.getElementById("btn_scrolltop")
+                btn_scrolltop.addEventListener('click', () => {
+                    window.scrollTo({
+                        top: 0,
+                        behavior: "smooth"
+                    })
+                })
+                window.onscroll = () => {
+                        if (window.scrollY < 300) {
+                            btn_scrolltop.classList.remove("btn-scrolltop-on")
+                        } else {
+                            btn_scrolltop.classList.add("btn-scrolltop-on") 
+                        }
+                    }
+        </script>
+    </section>
+    <footer class="fotter">
+        <div class="fotter_menu">
+            <div class="col_1">
+                <a href="index.html">
+                    <img src="Imagenes/Logo.png" width="250px" alt="Anabólicos Guadalajara Store">
+                </a> 
+            </div>
+            <div class="col_2"> 
+                <div class="titulo">
+                    Compañia
+                </div>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="quienes-somos.html">Quienes Somos</a></li>
+                    <li><a href="catalogo.html">Catálogo</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="col_3">
+                <div class="titulo">
+                    Terminos y Condiciones
+                </div>
+                <ul>
+                    <li><a href="politicas-privacidad.html">Políticas de Privacidad</a></li>
+                    <li><a href="terminos-condiciones.html">Términos y Condiciones</a></li>
+                </ul>
+            </div>
+        </div>    
+        <div class="grupo-2">
+            <small>&copy; 2023 <b>Anabolicos Guadalajara Store</b> - Todos los derechos reservados</small>
+        </div>
+        <div class="grupo-3">
+            <a href="https://marketery.com.mx" target="_blank">Creado por Marketery</a>
+        </div>
+    </footer>
+</body>
+</html>

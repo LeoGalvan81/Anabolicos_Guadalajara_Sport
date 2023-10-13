@@ -1,0 +1,1649 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.cabecera {
+    background-image: url(Imagenes/Cabecera-principal.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000;
+    min-height: 70vh;
+    align-items: center;
+}
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+.logo {
+    font-size: 25px;
+    /*margin-top: -80px;*/
+}
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 50px;
+    color: #fffdfc;
+    display: block;
+    font-weight: 600;
+    
+}
+.menu .navbar ul li a:hover {
+    color: #A9A9A9;
+}
+#menu {
+    display: none;
+    
+}
+.menu-icono {
+    width: 25px;
+    
+}
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+.header-texto {
+    text-align: center;
+}
+.header-texto h1 {
+    font-size: 60px;
+    color: #fffdfc;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-top: 250px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+button {
+    background: none;
+    border: 2px solid;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
+    color: var(--color);
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+}
+button:hover, button:focus {
+    border-color: var(--hover);
+    color: #fff;
+}
+.header-boton:hover,
+.header-boton:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    -webkit-transform: translateY(-0.25em);
+        transform: translateY(-0.25em);
+}
+.header-boton {
+    --color: #8B0000;
+    --hover: #006400;
+}
+.header-boton a {
+    font-size: 25px;
+    color: #8B0000;
+    font-weight: 900;
+    
+}
+.header-boton a:hover {
+    color: #006400;
+}
+.calidad {
+    padding: 50px 0;
+    text-align: center;
+}
+.calidad-txt {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.calidad h2 {
+    font-size: 35px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.calidad-1 p {
+    padding-top: 70px;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.calidad-2 {
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+}
+.calidad-2 img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+}
+.ofertas {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.ofertas h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+button {
+    background: none;
+    border: 2px solid;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
+    color: var(--color);
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+}
+button:hover, button:focus {
+    border-color: var(--hover);
+    color: #fff;
+}
+.ofertas-boton:hover,
+.ofertas-boton:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    -webkit-transform: translateY(-0.25em);
+        transform: translateY(-0.25em);
+}
+.ofertas-boton {
+    --color: #8B0000;
+    --hover: #006400;
+}
+.ofertas-boton a {
+    font-size: 25px;
+    color: #8B0000;
+}
+.ofertas-boton a:hover {
+    color: #006400;
+}
+.catalogo1 {
+    padding-bottom: 50px;
+    
+}
+
+.suplementos-nutricionales {
+    text-align: center;
+    display: block;
+    margin: auto;  
+}
+.suplementos-nutricionales-img {
+   width: 75vw;
+   max-width: 800px;
+   margin: auto;
+   padding-top: 100px;
+}
+.suplementos-nutricionales-img img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+}
+.suplementos-nutricionales-img img:hover {
+    filter: blur(3px);
+}
+.suplementos-nutricionales h3 {
+    font-size: 30px;
+    color: #000;
+    text-shadow: 5px 10px 18px #000;
+}
+.suplementos-nutricionales button {
+    border: 1px solid #000;
+    background-color: #8B0000;
+    border-radius: 5px;
+    padding: 10px 15px;  
+    height: 50px;
+}
+.suplementos-nutricionales button a {
+    color: #fff;
+}
+.testosteronas {
+    text-align: center;
+    display: block;
+    margin: auto;      
+}
+.testosteronas-img {
+    width: 75vw;
+    max-width: 800px;
+    margin: auto;
+}
+.testosteronas-img img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+}
+.testosteronas-img img:hover {
+    filter: blur(3px);
+}
+.testosteronas h3 {
+    font-size: 25px;
+    color: #000;
+    text-shadow: 5px 10px 18px #000;  
+}
+.testosteronas button {
+    border: 1px solid #000;
+    background-color: #8B0000;
+    border-radius: 5px;
+    padding: 10px 15px;  
+    height: 50px; 
+        
+}
+.testosteronas button a {
+    color: #fff;
+}
+.veterinarios {
+    text-align: center;
+    display: block;
+    margin: auto;      
+}
+.veterinarios-img {
+    width: 75vw;
+    max-width: 800px;
+    margin: auto;
+    padding-top: 50px;
+}
+.veterinarios-img img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+}
+.veterinarios-img img:hover {
+    filter: blur(3px);
+}
+.veterinarios h3 {
+    font-size: 25px;
+    color: #000;
+    text-shadow: 5px 10px 18px #000;   
+}
+.veterinarios button {
+    border: 1px solid #000;
+    background-color: #8B0000;
+    border-radius: 5px;
+    padding: 10px 15px;  
+    height: 50px;     
+}
+.veterinarios button a {
+    color: #fff;
+}
+.hormonas {
+    text-align: center;
+    display: block;
+    margin: auto;     
+}
+.hormonas-img {
+    width: 75vw;
+    max-width: 800px;
+    margin: auto;
+    padding-top: 50px;
+}
+.hormonas-img img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+}
+.hormonas-img img:hover {
+    filter: blur(3px);
+}
+.hormonas h3 {
+    font-size: 25px;
+    color: #000;
+    text-shadow: 5px 10px 18px #000;    
+}
+.hormonas button {
+    border: 1px solid #000;
+    background-color: #8B0000;
+    border-radius: 5px;
+    padding: 10px 15px;  
+    height: 50px;     
+}
+.hormonas button a {
+    color: #fff;
+} 
+.protectores {
+    text-align: center;
+    display: block;
+    margin: auto;  
+}
+.protectores-img {
+    width: 75vw;
+    max-width: 800px;
+    margin: auto;
+    padding-top: 50px;
+}
+.protectores-img img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+}
+.protectores-img img:hover {
+    filter: blur(3px);
+}
+.protectores h3 {
+    font-size: 25px;
+    color: #000;
+    text-shadow: 5px 10px 18px #000;    
+}
+.protectores button {
+    border: 1px solid #000;
+    background-color: #8B0000;
+    border-radius: 5px;
+    padding: 10px 15px;  
+    height: 50px;     
+}
+.protectores button a {
+    color: #fff;
+}       
+.peptidos {
+    text-align: center;
+    display: block;
+    margin: auto;     
+}
+.peptidos-img {
+    width: 75vw;
+    max-width: 800px;
+    margin: auto;
+    padding-top: 50px;
+}
+.peptidos-img img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+}
+.peptidos-img img:hover {
+    filter: blur(3px); 
+}
+.peptidos h3 {
+    font-size: 25px;
+    color: #000;
+    text-shadow: 5px 10px 18px #000;    
+}
+.peptidos button {
+    border: 1px solid #000;
+    background-color: #8B0000;
+    border-radius: 5px;
+    padding: 10px 15px;  
+    height: 50px;     
+}
+.peptidos button a {
+    color: #fff;
+}     
+.mesoterapia {
+    text-align: center;
+    display: block;
+    margin: auto; 
+}
+.mesoterapia-img {
+    width: 75vw;
+    max-width: 800px;
+    margin: auto;
+    padding-top: 50px;
+}
+.mesoterapia-img img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+}
+.mesoterapia-img img:hover {
+    filter: blur(3px);
+}
+.mesoterapia h3 {
+    font-size: 25px;
+    color: #000;
+    text-shadow: 5px 10px 18px #000;    
+}
+.mesoterapia button {
+    border: 1px solid #000;
+    background-color: #8B0000;
+    border-radius: 5px;
+    padding: 10px 15px;  
+    height: 50px;     
+}
+.mesoterapia button a {
+    color: #fff;
+}       
+.asesoria {
+    padding-top: 150px;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.asesoria-txt {
+    display: flex;
+}
+.asesoria h2 {
+    font-size: 35px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.asesoria-img{
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;    
+}
+.asesoria-img img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+}
+.asesoria-txt-1 p {
+    font-size: 25px;
+    padding-top: 50px;
+}
+button {
+    background: none;
+    border: 2px solid;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
+    color: var(--color);
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+}
+button:hover, button:focus {
+    border-color: var(--hover);
+    color: #fff;
+}
+.asesoria-boton:hover,
+.asesoria-boton:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    -webkit-transform: translateY(-0.25em);
+        transform: translateY(-0.25em);
+}
+.asesoria-boton {
+    --color: #8B0000;
+    --hover: #006400;
+}
+.asesoria-boton a {
+    font-size: 25px;
+    color: #8B0000;
+}
+.asesoria-boton a:hover {
+    color: #006400;
+}
+.btn-scrolltop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 15px 20px;
+    background: #8B0000;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    cursor: pointer;
+    transform: translateY(100px);
+    transition: 0.3s;
+}
+.btn-scrolltop-on {
+    transform: translateY(0);
+}
+.fotter {
+    width: 100%;
+    text-align: center;
+    background-color: #566573;
+}
+.fotter_menu{
+    display: flex;
+    justify-content: space-between;
+}
+.col_1 {
+    padding: 0 20px 0 100px;
+}
+.col_2 {
+    padding: 50px 20px 100px 0;
+}
+.col_2 .titulo {
+    color: #fff;
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+.col_2 ul li a {
+    color: #000;
+    font-size: 20px;
+}
+.col_2 ul li a:hover {
+    color: #8B0000;
+    text-decoration: underline;
+}
+.col_3 {
+    padding: 50px 150px 0 0;
+}
+.col_3 .titulo {
+    color: #fff;
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+.col_3 ul li a {
+    color: #000;
+    font-size: 20px;
+}
+.col_3 ul li a:hover{
+    color: #8B0000;
+    text-decoration: underline;
+}
+.grupo-2 {
+    width: 100%;
+    background-color: #1b293a;
+    padding: 50px 0 10px 0;
+    color: #fff;
+    font-size: 25px;
+}
+.grupo-3 {
+    width: 100%;
+    background-color: #1b293a;
+    padding: 0px 0 50px 0;
+}
+.grupo-3 a {
+    font-size: 25px;
+    color: #fff;
+}
+.grupo-3 a:hover {
+    color: #8B0000;
+}
+
+/*----PAGINA QUIENES SOMOS----*/
+
+.cab-quienes-somos {
+    background-image: url(Imagenes/Cabecera-QuienesSomos.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000;
+    min-height: 70vh;
+    align-items: center;
+}
+.quienes-somos {
+    display: flex;
+    padding-top: 100px;
+    
+}
+
+.quienes-somos-txt p {
+    padding: 12px 10px 1px 10px;
+    background-color: #D7DBDD;
+    font-size: 22px;
+    line-height: 1.8;
+}
+.quienes-somos-img {
+    width: 90vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+    object-fit: cover;
+    
+}
+.quienes-somos img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+}
+.privacidad {
+    margin-top: 100px;
+    text-align: center;
+}
+.privacidad h2 {
+    font-size: 45px;
+}
+.privacidad-txt {
+    display: flex;
+    margin-top: 20px;
+}
+.privacidad-txt1  p {
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 0 10px;
+    line-height: 1.8;
+}
+.privacidad-txt2  p{
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 0 10px;
+    line-height: 1.8; 
+}
+.empresa h2 {
+    padding: 100px 0;
+    text-align: center;
+    font-size: 90px;
+    font-weight: 800;
+}
+ /* --- CATALOGO --- */
+
+ .cabecera-catalogo {
+    background-image: url(Imagenes/Cabecera-catalogo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000;
+    min-height: 60vh;
+    align-items: center;
+ }
+ .texto-catalogo h1 {
+    text-align: left;
+    color: #fff;
+    padding-top: 280px;
+    font-size: 60px;
+    padding-left: 20px;
+ }
+.texto-catalogo h2 {
+    color: #fff;
+    font-size: 50px;
+    padding-left: 20px;
+}
+.envios {
+    text-align: center;
+    padding: 50px 0px 90px 0px;
+}
+.envios h2 {
+    font-size: 45px;
+}
+
+/* --- CONTACTO --- */
+
+.cabecera-contacto {
+    background-image: url(Imagenes/Cabecera-contacto.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000;
+    min-height: 70vh;
+    align-items: center;
+    
+}
+.form {
+    margin-top: 90px;
+    display: flex;
+    margin-bottom: 90px;
+} 
+.form h2 {
+    margin-bottom: 15px;
+    font-size: 35px;
+} 
+.form p {
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    padding-right: 20px;
+}
+.form-p {
+    color: #8B0000;
+    margin-right: 100px;
+}
+.form a {
+    font-size: 17px;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 15px;
+    color: #000;
+    font-weight: 700;
+    margin-right: 10px;
+}
+.form a i {
+    color: #8B0000;
+    margin-right: 10px;
+}
+.form form .campo, textarea {
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 15px;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+}
+.form form textarea {
+    max-width: 100%;
+    min-height: 140px;
+    max-height: 150px;
+}
+.form .btn-enviar {
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    background: #8B0000;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 300ms ease;
+    
+}
+.form .btn-enviar:hover {
+    background: #e39403;
+}
+
+/* --- POLITICAS DE PRIVACIDAD --- */
+
+.politicas-txt {
+    padding: 100px 0px;
+}
+.politicas-txt p {
+    font-size: 20px;
+    padding-bottom: 20px;
+    text-align: 1.5;
+    text-align: justify;
+}
+
+/* --- TERMINOS Y CONDICIONES --- */
+
+.cabecera-terminos {
+    background-image: url(Imagenes/Peptidos.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000;
+    min-height: 70vh;
+    align-items: center;
+}
+.texto-terminos {
+    text-align: center;
+    color: #fff;
+    padding-top: 280px;
+    font-size: 50px;
+    padding-left: 20px;
+}
+
+/* --- OFERTAS --- */
+
+.cabecera-ofertas {
+    background-image: url(Imagenes/Cabecera-catalogo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000;
+    min-height: 60vh;
+    align-items: center;
+}
+.header-ofertas h1 {
+    color: #fff;
+    padding-top: 250px;
+    text-align: center;
+    font-size: 90px;
+}
+.ofertas2 h2 {
+    font-size: 80px;
+    font-weight: 800;
+    margin-top: 50px;
+    text-align: center;
+}
+.prod-1 {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+    background: #D8DBDC;
+    padding: 50px 0px;
+}
+.prod-img {
+    width: 75vw;
+    max-width: 300px;
+    min-width: 300px;
+    margin: auto;
+    margin-left: 500px;
+}
+.prod-img img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+}
+.prod-txt {
+    padding-right: 250px;
+    margin-right: 200px;
+    padding-left: 50px;
+    
+}
+.prod-txt h2 {
+    padding: 20px 0px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #8B0000;
+}
+.prod-txt h3 {
+    padding-bottom: 20px;
+    font-size: 25px;
+    font-weight: 800;
+}
+.prod-txt p {
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.btn-prod:hover,
+.btn-prod:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    -webkit-transform: translateY(-0.25em);
+        transform: translateY(-0.25em);
+}
+.btn-prod {
+    --color: #8B0000;
+    --hover: #006400;
+}
+.btn-prod a {
+    font-size: 25px;
+    color: #8B0000;
+    font-weight: 900;
+    
+}
+.btn-prod a:hover {
+    color: #006400;
+}
+.prod-2 {
+    
+    margin: 50px 0px;
+    padding: 50px 0px;
+}
+
+
+.prod-img-2 {
+    width: 75vw;
+    max-width: 1200px;
+    min-width: 300px;
+    margin: auto;
+}
+.prod-img-2 img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+}
+
+.prod-txt-2 {
+    text-align: center;
+}
+.prod-txt-2 h2 {
+    padding: 20px 0px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #8B0000;
+}
+.prod-txt-2 h3 {
+    padding-bottom: 20px;
+    font-size: 25px;
+    font-weight: 800;
+}
+.prod-txt-2 p {
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.prod-txt ul li {
+    list-style: square inside;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+/* --- SUPLEMENTOS NUTRICIONALES --- */
+
+.cabecera-ofertas {
+    background-image: url(Imagenes/Cabecera-catalogo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000;
+    min-height: 60vh;
+    align-items: center;
+}
+.btnpro-1 {
+    padding: 50px 0 0 0;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+.btn-proteinas {
+    background-color: #8B0000;
+    border-radius: 10px;
+}
+.btn-proteinas a {
+    color: #fff;
+}
+.btn-creatinas {
+    background-color: #8B0000;
+    border-radius: 10px;
+}
+.btn-creatinas a {
+    color: #fff;
+}
+.btnpro-2 {
+    padding: 5px 0 0 0;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+.btn-oxido {
+    background-color: #8B0000;
+    border-radius: 10px;
+}
+.btn-oxido a {
+    color: #fff;
+}
+.btn-quemadores {
+    background-color: #8B0000;
+    border-radius: 10px;
+}
+.btn-quemadores a {
+    color: #fff;
+}
+.btnpro-3 {
+    padding: 5px 0 0 0;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+.btn-aminoacidos {
+    background-color: #8B0000;
+    border-radius: 10px;
+}
+.btn-aminoacidos a {
+    color: #fff;
+}
+.btn-ganadores {
+    background-color: #8B0000;
+    border-radius: 10px;
+}
+.btn-ganadores a {
+    color: #fff;
+}
+.btnpro-4 {
+    padding: 5px 0 0 0;
+    text-align: center;
+    margin: auto;  
+    display: flex;
+    flex-direction: column;
+    width: 20%;  
+}
+.btn-vitaminas {
+    background-color: #8B0000;
+    border-radius: 10px;
+}
+.btn-vitaminas a {
+    color: #fff;
+}
+.btn-kit {
+    background-color: #8B0000;
+    border-radius: 10px;
+}
+.btn-kit a {
+    color: #fff;
+}
+.btnpro-5 {
+    padding: 5px 50px 0 0;
+    text-align: center;
+    margin: auto;  
+    padding-bottom: 50px;
+    margin-left: 370px;
+}
+.btn-accesorios {
+    background-color: #8B0000;
+    border-radius: 10px;
+    
+}
+.btn-accesorios a {
+    color: #fff;
+}
+
+/* --- PROTEINAS --- */
+
+.prod2 {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+    padding: 50px 0px;
+}
+.btn-reg {
+    text-align: right;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+.btn-regresar {
+    background-color: #8B0000;
+    border-radius: 10px;
+}
+.btn-regresar a {
+    color: #fff;
+}
+
+/* --- TESTOSTERONAS --- */
+
+.logo-1-2 {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo1 img:hover {
+    filter: blur(2px);
+}
+.logo2 img:hover {
+    filter: blur(2px);
+}
+.logo-3-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.logo3 img:hover {
+    filter: blur(2px);
+}
+.logo4 img:hover {
+    filter: blur(2px);
+}
+.logo-5-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.logo5 img:hover {
+    filter: blur(2px);
+}
+.logo6 img:hover {
+    filter: blur(2px);
+}
+.logo-7-8 {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding-bottom: 50px;
+}
+.logo7 img:hover {
+    filter: blur(2px);
+}
+.logo8 img:hover {
+    filter: blur(2px);
+}
+.logo9 img:hover {
+    filter: blur(2px);
+}
+
+/* --- XTLABS --- */
+
+.des-xtlab {
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+}
+.des-txt {
+    padding-left: 400px;
+    padding-right: 50px;
+}
+.des-img {
+    margin-right: 400px;
+}
+.des-txt p {
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.des-img img {
+    width: 25vw;
+}
+.botones {
+    padding: 50px 0 100px 0;
+    display: flex;
+    justify-content: center;
+}
+.btn-xttabletas {
+    background: #8B0000;
+    border-radius: 10px;
+    
+}
+.btn-xttabletas a{
+    color: #fff;
+    font-size: 20px;
+}
+.btn-xtinyectables {
+    background: #8B0000;
+    border-radius: 10px;
+}
+.btn-xtinyectables a {
+    color: #fff;
+    font-size: 20px;
+}
+
+/* --- HARDBULL LABS --- */
+
+.des-hard {
+    padding-top: 100px;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+.des-img-hard {
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+}
+.des-img-hard img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+}
+.btn-hbtabletas {
+    background-color: #8B0000;
+    border-radius: 10px;
+}
+.btn-hbtabletas a {
+    color: #fff;
+    font-size: 20px;
+}
+.btn-hbinyectables {
+    background-color: #8B0000;
+    border-radius: 10px;
+}
+.btn-hbinyectables a {
+    color: #fff;
+    font-size: 20px;
+}
+.btn-hboxidos {
+    background-color: #8B0000;
+    border-radius: 10px;
+}
+.btn-hboxidos a {
+    color: #fff;
+    font-size: 20px;
+}
+
+/* --- BVS ANABOLIC --- */
+
+.des-img-bvs{
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+       
+}
+.des-img-bvs img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+}
+
+
+
+@media(max-width:991px){
+    .menu {
+        padding: 20px;
+        
+    }
+    .menu label {
+        display: initial;
+    }
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #1b293a;
+        display: none;
+    }
+    .menu .navbar ul li {
+        width: 100%;
+    }
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+    .cabecera {
+        min-height: 0vh;
+    }
+    .cabecera-contenido {
+        padding: 50px 100px;
+    }
+    .header-texto h1 {
+        font-size: 30px;
+        margin-top: 0px;
+    }
+    .header-texto {
+        padding-bottom: 300px;
+    }
+    .header-boton a {
+        font-size: 20px;
+    }
+    .calidad-txt {
+        flex-direction: column;
+    }   
+    .calidad h2 {
+        font-size: 20px;
+        padding: 20px;
+    }
+    .calidad-1 p {
+        font-size: 18px;
+        padding-bottom: 20px;
+        margin-top: -85px;
+    }
+    .ofertas h2 {
+        font-size: 20px;
+    }
+    .ofertas-boton a {
+        font-size: 20px;
+    }
+   .suplementos-nutricionales img {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .suplementos-nutricionales h3 {
+        margin-top: 5px;
+        font-size: 20px;
+    }
+    .suplementos-nutricionales button a {
+        font-size: 20px;
+    }
+    
+   .testosteronas img {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .testosteronas h3 {
+        margin-top: 5px;
+        font-size: 20px;
+        padding: 0 10px;
+    }
+    .testosteronas button a {
+        font-size: 20px;
+    }
+    
+    .veterinarios img {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .veterinarios h3 {
+        margin-top: 5px;
+        font-size: 20px;
+    }
+    .veterinarios button a {
+        font-size: 20px;
+    }
+    .hormonas img {
+        width: 100%;
+        margin-top: 10px;
+    }    
+    .hormonas h3 {
+        margin-top: 5px;
+        font-size: 20px;
+    }
+    .hormonas button a {
+        font-size: 20px;
+    }
+    .protectores img {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .protectores h3 {
+        margin-top: 5px;
+        font-size: 20px;
+    }
+    .protectores button a {
+        font-size: 20px;
+    }
+    .peptidos img {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .peptidos h3 {
+        margin-top: 5px;
+        font-size: 20px;
+    }
+    .peptidos button a{
+        font-size: 20px;
+    }
+    .mesoterapia {
+        padding-bottom: 100px;
+    }
+    .mesoterapia img {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .mesoterapia h3 {
+        margin-top: 5px;
+        font-size: 20px;
+    }
+    .mesoterapia button a {
+        font-size: 20px;
+    }
+    .asesoria {
+        text-align: center;
+        flex-direction: column;
+        margin-top: -150px;
+        margin-bottom: 50px;
+    }
+    .asesoria h2 {
+        font-size: 20px;
+    }
+    .asesoria-txt {
+        flex-direction: column;
+       
+    }
+    .asesoria-img {
+        width: 90%;
+        align-items: center;
+    }
+    .asesoria-txt-1 p {
+        font-size: 18px;
+        padding: 10px;
+    }
+    .asesoria-boton a {
+        font-size: 20px;
+    }
+    .fotter_menu {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+    .col_1 img{
+        width: 30%;
+        position: relative;
+        margin-left: -100px;
+        padding-bottom: 20px;
+    }
+    .col_2 {
+        margin-top: -80px;
+    } 
+    .col_2 .titulo {
+        font-size: 20px;
+    }
+    .col_2 ul li a{
+        font-size: 15px;
+    }  
+    .col_3 {
+        margin-top: -90px;
+        padding: 0 20px 20px 0px;
+    } 
+    .col_3 .titulo {
+        font-size: 20px;
+    }
+    .col_3 ul li a {
+        font-size: 15px;
+    }
+    .grupo-2 {
+        font-size: 20px;
+    }
+    .grupo-3 a {
+        font-size: 20px;
+    }
+
+    /* --- QUIENES SOMOS --- */
+
+    .quienes-somos {
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-texto-quienes h1 {
+        font-size: 60px;
+        color: #fff;
+        text-align: center;
+        padding-top: 230px;
+        text-shadow: 1px 1px 2px #000;
+    }
+    .quienes-somos-txt p {
+        font-size: 17px;
+        text-align: center;
+    }
+    .quienes-somos img {
+        padding-top: 20px;
+    }    
+    .privacidad h2 {
+        font-size: 25px;
+    }
+    .privacidad-txt {
+        flex-direction: column;
+    }
+    .privacidad-txt p {
+        font-size: 17px;
+        text-align: center;
+        padding: 0px 10px;
+    }
+    .empresa h2 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    /* --- CATALOGO --- */
+    
+    .texto-catalogo h1 {
+        font-size: 40px;
+        padding-top: 200px;
+        text-shadow: 1px 1px 2px #000;
+    }
+    .texto-catalogo h2 {
+        font-size: 30px;
+        text-shadow: 1px 1px 2px #000;
+        text-align: center;
+    }
+    .envios h2 {
+        font-size: 20px;
+        margin-top: -100px;
+        padding: 0;
+    }
+    
+    /* --- CONTACTO --- */
+
+    .header-texto-contacto h1 {
+        color: #fff;
+        text-align: center;
+        padding-top: 300px;
+        font-size: 60px;
+        text-shadow: 1px 1px 2px #000;
+    }
+    .form {
+        flex-direction: column;
+        width: 100%;
+        padding: 0 15px;
+    }
+    .form h2 {
+        text-align: center;
+    }
+    .form p {
+        text-align: center;
+        padding: 0px 20px;
+    }
+    .form-p  {
+        margin: 0;
+    }
+   
+    .form a i {
+        padding-left: 15px;
+    }
+
+    /* --- POLITICAS DE PRIVACIDAD --- */
+    
+    .texto-catalogo h1 {
+        text-align: center;
+    }
+    .politicas-txt p {
+        padding: 0px 20px;
+        font-size: 15px;
+    }
+    /* --- TERMINOS Y CONDICIONES --- */
+    
+    .texto-terminos h1 {
+        font-size: 30px;
+    }
+
+    /* --- OFERTAS --- */
+
+    .header-texto-ofertas h1 {
+        font-size: 65px;
+    }
+    .ofertas2 h2 {
+        font-size: 35px;
+    }
+    .prod-1 {
+        flex-direction: column;
+    }
+    .prod-img {
+        margin: auto;
+        
+    }
+    .prod-txt {
+        text-align: center;
+        padding: 0 20px;
+        margin: 0;
+        max-width: 100%;
+    }
+    .prod-txt-2 p {
+        padding: 20px 20px;
+    }
+    .prod-txt h2 {
+        font-size: 20px;
+    }
+    .prod-txt h3 {
+        font-size: 20px;
+    }
+    .prod-txt p {
+        font-size: 17px;
+    }
+    .prod-txt-2 h2{ 
+        font-size: 20px;
+    }
+    .prod-txt-2 h3 {
+        font-size: 20px;
+    }
+    .prod-txt-2 p {
+        font-size: 17px;
+    }
+    .btn-prod a {
+        font-size: 20px;
+    }
+    .prod-txt ul li {
+        text-align: left;
+        font-size: 17px;
+    }
+   
+    /* --- SUPLEMENTOS NUTRICIONALES --- */
+    
+    .header-texto-suplementos h1 {
+        color: #fff;
+        text-align: center;
+        font-size: 50px;
+        padding-top: 230px;
+        text-shadow: 1px 1px 2px #000;
+    }
+    .btnpro-1 {
+        padding-bottom: 0;
+        width: 70%;
+    }
+    .btn-proteinas a {
+        font-size: 17px;
+    }
+    .btn-creatinas a {
+        font-size: 17px;
+    }
+    .btnpro-2 {
+        padding-bottom: 0;
+        padding-top: 5px;
+        width: 70%;
+    }
+    .btn-oxido a {
+        font-size: 17px;
+    }
+    .btn-quemadores a {
+        font-size: 17px;
+    }
+    .btnpro-3 {
+        padding-bottom: 0;
+        padding-top: 5px;
+        width: 70%;
+    }
+    .btn-aminoacidos a {
+        font-size: 17px;
+    }
+    .btn-ganadores a {
+        font-size: 17px;
+    }
+    .btnpro-4 {
+        padding-bottom: 0;
+        padding-top: 5px;
+        width: 70%;
+    }
+    .btn-vitaminas a {
+        font-size: 17px;
+    }
+    .btn-kit a {
+        font-size: 17px;
+    }
+    .btn-accesorios a {
+        font-size: 17px;
+    }
+    .btnpro-5 {
+        margin-left: 50px;
+    }
+
+    /* --- PROTEINAS --- */
+
+    .prod2 {
+        flex-direction: column;
+    }
+    .btn-reg {
+        padding-right: 0;
+        text-align: center;
+    }
+
+    /* --- TESTOSTERONAS --- */
+    .logo-1-2 {
+        flex-direction: column;
+    }
+    .logo-3-4 {
+        flex-direction: column;
+    }
+    .logo-5-6 {
+        flex-direction: column;
+    }
+    .logo-7-8 {
+        flex-direction: column;
+    }
+    .logo9  {
+        text-align: center;
+    
+    }
+    /* --- XT LABS --- */
+
+    .des-xtlab {
+        flex-direction: column;
+    }
+    .des-txt {
+        padding: 0 20px;
+    }
+    .des-txt p {
+        font-size: 18px;
+        text-align: center;
+    }
+    .des-img {
+        margin: 0;
+    }
+    .botones {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+   
+}
+
+ 

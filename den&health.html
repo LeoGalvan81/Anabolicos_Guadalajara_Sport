@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="venta de anabolicos, anabolicos en guadalajara, venta de suplementos, esteroides, anabolicos, comprar anabolicos">
+    <meta name="robots" content="index">
+    <title>Anabólicos Guadalajara Store</title>
+    <link rel="shortcute icon" href="Imagenes/Logo.png">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://kit.fontawesome.com/6b7a8a6ccb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <header class="cabecera-ofertas">
+        <div class="menu contenedor">
+            <a href="index.html" class="enlace">
+                <img src="Imagenes/Logo.png" width="150" height="300" alt="" class="logo" >
+             </a>
+             <input type="checkbox" id="menu">
+             <label for="menu">
+                <img src="Imagenes/menu.png" class="menu-icono" alt=""> 
+             </label>
+             <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="quienes-somos.html">Quienes Somos</a></li>
+                    <li><a href="catalogo.html">Catálogo</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul> 
+             </nav>
+        </div>
+        <div class="header-ofertas contenedor">
+            <div class="header-texto-ofertas">
+                <h1>DEN & HEALTH</h1>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="des-hard">
+            <div class="des-img-roids">
+                <img src="Imagenes/Den&Health.png" alt="Den & Health">
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="botones">
+            <button class="btn-hbtabletas">
+                <a href="den&health-tabletas.html">Tabletas</a>
+            </button>
+            <button class="btn-hbinyectables">
+                <a href="den&health-inyectables.html">Inyectables</a>
+            </button>
+        </div>
+    </section>
+    <section>
+        <div class="btn-reg">
+            <button class="btn-regresar">
+                <a href="farmacos-veterinarios.html">Regresar a Farmacos Veterinarios</a>
+            </button>
+        </div>
+    </section>
+    <section class="boton-arriba">
+        <button class="btn-scrolltop" id="btn_scrolltop">
+            <i class="fa-solid fa-angle-up"></i>
+        </button>
+        <script>
+            const btn_scrolltop = document.getElementById("btn_scrolltop")
+                btn_scrolltop.addEventListener('click', () => {
+                    window.scrollTo({
+                        top: 0,
+                        behavior: "smooth"
+                    })
+                })
+                window.onscroll = () => {
+                        if (window.scrollY < 300) {
+                            btn_scrolltop.classList.remove("btn-scrolltop-on")
+                        } else {
+                            btn_scrolltop.classList.add("btn-scrolltop-on") 
+                        }
+                    }
+        </script>
+    </section>
+    <footer class="fotter">
+        <div class="fotter_menu">
+            <div class="col_1">
+                <a href="index.html">
+                    <img src="Imagenes/Logo.png" width="250px" alt="Anabólicos Guadalajara Store">
+                </a> 
+            </div>
+            <div class="col_2"> 
+                <div class="titulo">
+                    Compañia
+                </div>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="quienes-somos.html">Quienes Somos</a></li>
+                    <li><a href="catalogo.html">Catálogo</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="col_3">
+                <div class="titulo">
+                    Terminos y Condiciones
+                </div>
+                <ul>
+                    <li><a href="politicas-privacidad.html">Políticas de Privacidad</a></li>
+                    <li><a href="terminos-condiciones.html">Términos y Condiciones</a></li>
+                </ul>
+            </div>
+        </div>    
+        <div class="grupo-2">
+            <small>&copy; 2023 <b>Anabolicos Guadalajara Store</b> - Todos los derechos reservados</small>
+        </div>
+        <div class="grupo-3">
+            <a href="https://marketery.com.mx" target="_blank">Creado por Marketery</a>
+        </div>
+    </footer>
+</body>
+</html>
